@@ -3,7 +3,7 @@
 > Companion code repository for:
 > Williams, J. (2026). *Allocation Under Scarcity: A Cross-Mechanism Comparison
 > of Low-Income Housing Tax Credit Allocation in California and Texas.* ORF 497
-> Senior Independent Work, Princeton University. Adv: Prof. A. Kornhauser.
+> Project, Princeton University. Adv: Prof. A. Kornhauser.
 
 This repository implements three independent simulators of 2025 Low-Income
 Housing Tax Credit (LIHTC) allocation cycles and a standardized comparison
@@ -19,7 +19,7 @@ The three simulators do not import from each other. What they share is an
 output schema (`cross_mechanism/schema.py`, twelve columns documented below).
 A separate script (`cross_mechanism/harness/compare.py`) reads only those
 CSVs and produces all of the comparison tables and the consolidated report
-used in chapter 5 of the thesis.
+used in chapter 5 of the project.
 
 This design is deliberate: it isolates mechanism-level claims from
 simulator-level implementation choices, and it makes it structurally easy
@@ -31,8 +31,8 @@ touching anything downstream of its CSV output.
 ## Quick start
 
 ```bash
-git clone https://github.com/<YOUR-ORG>/<REPO-NAME>.git
-cd <REPO-NAME>
+git clone https://github.com/jw7123/princeton-orfe-project-2026.git
+cd princeton-orfe-project-2026
 
 # Python 3.11+
 pip install -r requirements.txt
@@ -228,7 +228,7 @@ automatically.
 
 ## Known limitations
 
-These are the simplifications and gaps flagged in the thesis text. They
+These are the simplifications and gaps flagged in the project text. They
 are real and worth being honest about.
 
 1. **No `CA_9pct` (CTCAC) mechanism.** The current CA simulator covers
@@ -259,7 +259,7 @@ are real and worth being honest about.
 
 ## How to cite
 
-If you use this code in academic work, please cite the thesis:
+If you use this code in academic work, please cite the project:
 
 ```bibtex
 @misc{williams_simulators_2026,
@@ -272,7 +272,7 @@ If you use this code in academic work, please cite the thesis:
   url    = {https://github.com/<YOUR-ORG>/<REPO-NAME>}
 }
 
-@misc{williams_thesis_2026,
+@misc{williams_project_2026,
   author = {Williams, Jim},
   title  = {Allocation Under Scarcity: A Cross-Mechanism Comparison of
             Low-Income Housing Tax Credit Allocation in California and Texas},
@@ -302,5 +302,5 @@ Research (FY2025 MTSP income limits, LIHTC database).
 
 The original CA CDLAC bond simulator (`Code.py`) was developed against
 CDLAC's published 2025 allocation cycle in summer 2025; the
-cross-mechanism comparison framework was developed for the senior thesis
+cross-mechanism comparison framework was developed for the senior project
 in spring 2026.
