@@ -3,7 +3,7 @@
 # -----------------------------
 # Run the full pipeline that produces the per-mechanism predictions, the
 # synthetic-project sweep, and the comparison harness output used in
-# chapter 5 of the thesis.
+# chapter 5 of the project.
 #
 # Assumes the data files listed in README.md are placed in ./data/.
 # All outputs land in ./out/.
