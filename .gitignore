@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# Excel temp files (xlwings can leave these)
+~$*.xlsm
+~$*.xlsx
+
+# Generated outputs (regenerate via scripts/reproduce_chapter5.sh)
+out/
+
+# Local data dir (data files are obtained from agency sites; see README)
+data/

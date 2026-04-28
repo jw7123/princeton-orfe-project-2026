@@ -1,0 +1,10 @@
+pandas>=2.0
+numpy>=1.24
+openpyxl>=3.1
+matplotlib>=3.7
+tabulate>=0.9   # for harness report.md generation
+# xlwings is required ONLY to re-run Code.py (the CA simulator) against
+# the original Excel macro workbook. The thesis package treats Code.py's
+# output (Awarded_Projects.xlsx) as checked in, so xlwings is optional.
+# Uncomment to install:
+# xlwings>=0.30

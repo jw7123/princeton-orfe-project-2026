@@ -1,0 +1,7 @@
+spec_id,CA_bond,TX_4pct,TX_9pct
+FARMWORKER,N,"N(median_pd), Y(early_pd)",?
+HIGH_SCORE_URBAN_NC,Y,"N(median_pd), Y(early_pd)",?
+HOMELESS_PSH,Y,"N(median_pd), Y(early_pd)",?
+LOW_SCORE_URBAN_NC,N,"N(median_pd), Y(early_pd)",?
+MID_QUEUE_TX4,N,"N(median_pd), Y(early_pd)",?
+RURAL_PRESERVATION,Y,"N(median_pd), Y(early_pd)",?
