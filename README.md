@@ -2,7 +2,7 @@
 
 > Companion code repository for:
 > Williams, J. (2026). *Allocation Under Scarcity: A Cross-Mechanism Comparison
-> of Low-Income Housing Tax Credit Allocation in California and Texas.* ORF 497
+> of Low-Income Housing Tax Credit Allocation in California and Texas.* ORF 497 
 > Project, Princeton University. Adv: Prof. A. Kornhauser.
 
 This repository implements three independent simulators of 2025 Low-Income
