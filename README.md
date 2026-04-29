@@ -269,7 +269,7 @@ If you use this code in academic work, please cite the project:
             mechanisms},
   year   = {2026},
   howpublished = {Software repository},
-  url    = {https://github.com/<YOUR-ORG>/<REPO-NAME>}
+  url    = {https://github.com/jw7123/princeton-orfe-project-2026}
 }
 
 @misc{williams_project_2026,
