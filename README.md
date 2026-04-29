@@ -77,7 +77,7 @@ requirements.txt
 scripts/reproduce_chapter5.sh
 synthetic_sweep_by_spec.csv            # Baseline cross-mechanism sweep table (CA + TX 4% columns)
 
-# Required data files (place in ./data/)
+# Required data files
 01_May_20_Applicant_List.xlsx                       # CA 2025 applicant pool
 Awarded_Projects.xlsx                               # CA 2025 awards (Code.py output)
 CA_Bond_Scoring_Simulator.xlsm                      # CA simulator workbook (only needed to re-run Code.py)
